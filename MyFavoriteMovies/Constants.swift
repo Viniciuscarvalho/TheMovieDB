@@ -30,7 +30,7 @@ struct Constants {
     
     // MARK: TMDB Parameter Values
     struct TMDBParameterValues {
-        static let ApiKey = "YOUR_API_KEY_HERE"
+        static let ApiKey = "be841f7f6cb3599d33f0523d16985a59"
     }
     
     // MARK: TMDB Response Keys
@@ -55,14 +55,4 @@ struct Constants {
         static let BlueColor = UIColor(red: 0.0, green:0.502, blue:0.839, alpha: 1.0)
     }
     
-    // FIX: As of Swift 2.2, using strings for selectors has been deprecated. Instead, #selector(methodName) should be used.
-    /*
-     // MARK: Selectors
-     struct Selectors {
-     static let KeyboardWillShow: Selector = "keyboardWillShow:"
-     static let KeyboardWillHide: Selector = "keyboardWillHide:"
-     static let KeyboardDidShow: Selector = "keyboardDidShow:"
-     static let KeyboardDidHide: Selector = "keyboardDidHide:"
-     }
-     */
 }
